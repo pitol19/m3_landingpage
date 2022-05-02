@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.page-header{
+.page-header {
     display: flex;
     justify-content: center;
     padding: 28px 0;
@@ -13,4 +13,20 @@
 
 .header-logo {
     display: block;
+}
+
+.main-banner {
+    width: 100%;
+}
+
+@media screen and (max-width: 414px) {
+    .main-banner-desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 415px) {
+    .main-banner-mobile {
+        display: none;
+    }
 }
