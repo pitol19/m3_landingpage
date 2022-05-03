@@ -20,7 +20,9 @@ body {
     display: block;
 }
 
-.main-banner {
+.main-banner, 
+.middle-banner {
+    display: block;
     width: 100%;
 }
 
@@ -91,7 +93,8 @@ body {
 
 
 @media screen and (max-width: 414px) {
-    .main-banner-desktop {
+    .main-banner-desktop,
+    .middle-banner-desktop {
         display: none;
     }
 }
@@ -143,7 +146,8 @@ body {
 }
 
 @media screen and (min-width: 415px) {
-    .main-banner-mobile {
+    .main-banner-mobile,
+    .middle-banner-mobile {
         display: none;
     }
 }
