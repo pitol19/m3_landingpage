@@ -123,6 +123,35 @@ body {
     text-align: center;
 }
 
+.bottom-infocard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 142px 0 180px;
+}
+
+.bottom-infocard-image {
+    max-width: 596px;
+    width: 100%;
+    margin-right: 40px;
+}
+
+.bottom-infocard-text {
+    max-width: 550px;
+}
+
+.bottom-infocard-title {
+    margin-bottom: 18px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+}
+
+.bottom-infocard-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
 
 
 
@@ -164,6 +193,27 @@ body {
         width: 100%;
         max-width: 240px;
     }
+
+    .bottom-infocard {
+        flex-direction: column;
+        padding: 80px 0 136px;
+    }
+
+    .bottom-infocard-image {
+        width: 100%;
+        max-width: 596px;
+        margin: 0 0 50px;
+    }
+
+    .bottom-infocard-title {
+        font-size: 24px;
+    }
+
+    .bottom-infocard-text {
+        padding: 0 26px;
+    }
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -203,6 +253,14 @@ body {
     .top-infocard-text {
         max-width: 520px;
         margin-right: 70px;
+    }
+
+    .bottom-infocard-image {
+        max-width: 480px;
+    }
+
+    .bottom-infocard-text {
+        max-width: 400px;
     }
 }
 
